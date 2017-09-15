@@ -3,10 +3,11 @@
 <head>
   <title>My Basic Portfolio</title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
    <div id="main_container"> 
+
     <header>
       <div class="container_header">
         <div id="name">Winfred Sunga
@@ -24,19 +25,24 @@
         </nav>
     </div>
     </header>
+
     <div class="container_content">
-      <div class="main_content">
-        <div class="main_content_wrapper">
-          <h1>About Me</h1>
+      <div class="contact_content">
+        <div class="contact_content_wrapper">
+          <h1>Contact</h1>
           <hr></hr>
-          <img class="my_pic" src="images/WinfredSungaPic.jpg" alt="Winfred Sunga's Photo">
-          <p id="p1">I am an aspiring Web Developer who loves to code. I want to switch career and do something different, which is why I am here. My goal after this course is to be able to build creative and interactive web applications which I can show off to my friends and family. My friends play NFL Fantasy Football and hopefully, one day, I'll be skilled enough to build my own Fantasy Football Web App - sounds very ambitious? We'll see ... there's no harm in trying ;). With little perserverance I believe it can be done. 
-          </p>
-          <p id="p2">
-          My favorite hobby is photography. I have tried different types of photography such as landscape, macro, portrait and wildlife. My favorite subjects are my kids, birds, insects, and tourist landmarks. I love taking photos because it requires a great deal of creativity to make your photo stand out from others'.
-          </p>
-        </div>  
-      </div>   
+          <form action="/action_page.php" id="emailform">
+            Name<br>
+            <input type="text" name="name". value="John Snow" class="formtext"><br>
+            Email<br>
+            <input type="email" name="email" value="kingofthenorth@got.com" class="formtext"><br>
+            Message<br>
+            <textarea name="message" form="emailform" class="messagetext"></textarea>
+            <br>
+            <input type="submit" value="Submit" name="submit">
+          </form>
+        </div>    
+      </div>
     <aside>
       <div id="connect">
         <h3>Connect with Me</h3>
@@ -52,8 +58,8 @@
           <img class="social_media_icons"  src="images/stackoverflow.png" alt="Stack Overflow Icon">
         </a>
       </div>
-    </aside>  
-    <footer>
+    </aside> 
+     <footer>
       <div id="footer_div1"></div>
       <div id="footer_div2">© Copyright 2017 Winfred Sunga</div>
     </footer>
