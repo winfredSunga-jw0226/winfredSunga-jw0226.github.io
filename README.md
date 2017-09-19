@@ -1,2 +1,1 @@
-# Basic-Portfolio
-My personal portfolio
+# bootstrap-portfolio
